@@ -12,6 +12,12 @@
   "bin": {
     "kerdos-x402-mcp": "./index.js"
   },
+  "files": [
+    "index.js",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "mcp",
     "model-context-protocol",
