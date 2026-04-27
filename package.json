@@ -1,0 +1,31 @@
+{
+  "name": "kerdos-x402-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing Kerdos market intelligence APIs (x402-paid). Pay-per-tool-call in USDC on Base. No API keys.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "kerdos-x402-mcp": "./index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "crypto",
+    "market-data",
+    "trading-agent",
+    "hyperliquid",
+    "base"
+  ],
+  "author": "Kerdos Market Intelligence",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@x402/fetch": "^2.6.0",
+    "@x402/evm": "^2.6.0",
+    "viem": "^2.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
