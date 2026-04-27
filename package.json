@@ -1,7 +1,12 @@
 {
   "name": "kerdos-x402-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.Singlishman/kerdos-x402-mcp",
   "description": "MCP server exposing Kerdos market intelligence APIs (x402-paid). Pay-per-tool-call in USDC on Base. No API keys.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Singlishman/kerdos-x402-mcp.git"
+  },
   "type": "module",
   "main": "index.js",
   "bin": {
